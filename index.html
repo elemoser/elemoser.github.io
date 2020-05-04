@@ -1,301 +1,100 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<! DOCTYPE html>
 <html>
-	<head>
-		<title>Elena Vera Moser</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-                            <li><a href="#about">About me</a></li>
-                            <li><a href="#work">Work experience</a></li>
-                            <li><a href="#education">Education</a></li>
-							<li><a href="#two">Languages</a></li>
-                            <li><a href="#two-skills">Skills</a></li>
-							<li><a href="#three">Get in touch</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
-
-		<!-- Wrapper #312450-->
-			<div id="wrapper">
-
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Elena Vera Moser</h1>
-                            <p>Master graduate in Linguistics
-                            <br>
-                            Project assistant     
-                            <br>
-                            LaTeX typesetter                 
-                            <br> 
-                            Independent translator  
-							</p>
-						</div>
-					</section>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>elemoser</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+        
+        <!-- Google Font-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link href="CSS/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+<!-- add logo or name
+            <div >
+                <img class="logo" src="" alt="logo">
+            </div>
+-->
+            
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a class="nav-link" href="#home">Welcome</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="#about">Who I am</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="#work">What I do</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="#contact">Get in touch</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro main-grid" id="home">
+            <h1 class="section-title intro-title">Hi, I am <br><strong>Elena Moser</strong></h1>
+            <p class=" section-subtitle intro-subtitle">Language Expert</p>
+            <img class="intro-img" src="Images/IMG_4786.jpeg" alt="elemoser">
+        </section>
+        
+        <!-- About -->
+        <section class="about main-grid" id="about">
+            <h2 class="section-title about-title">Who am I</h2>
+            
+            <div class="about-body">
+                <p>I am originally from Switzerland. Having grown up in a bilingual French-German setting, I have early on been confronted with different linguistic systems and developed a passion for language learning. I am fluent in German, French, and English. Since moving to Sweden in 2017, I have also acquired proficiency in Swedish. Moreover, I speak Spanish and some Mandarin Chinese.</p>
                 
-                <!-- About Me -->
-                <section id="about" class="wrapper style1 spotlights">
-                    <section>
-							<div class="content">
-								<div class="inner">
-									<h2>About me</h2>
-									<p> Originally from Switzerland, I currently live in Stockholm. 
-                                    I am fluent in German, French, English and Swedish.    
-                                    I have a passion for <a href="#two">languages</a> and hold a Master's degree in Linguistics from Stockholm University. When I am not learning a new language, I enjoy developing new computer <a href="#two-skills">skills</a>. <br>
-                                    Previously, I have been employed as an administration assistant and translator for French-German. I have experience in library and publishing work. Moreover, I worked as a subsitute teacher and homework tutor for French, German and Mathematics.</p>
-                                    <!--In 2017, I moved to the capital of Sweden to study the Master's program <i>Typology and Linguistic Diversity</i> at the Department of Linguistics, Stockholm university. <br> For the past three years, I have also learned Swedish and shown my language skills at the TISUS, a qualifying test in Swedish for university and college studies in Sweden.For my Master thesis, I learned to use LaTeX. Recently, I expanded my knowledge of HTML5 and CSS and started a Python course to develop my knowledge of data processing. I have also had several jobs in the service industry.  >
-									<!--<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>-->
-								</div>
-							</div>
-                        <img src="images/IMG_4328.jpg" alt="" data-position="top center" />
-						</section>
-                    </section>
+                <p>Besides my interest for languages, I enjoy broadening my skillset in other fields. Through projects and studies I have gained experience in audio and video annotation, typesetting, front-end development, and automation. Currently I am enjoying my foray into data processing with python.</p>
+                <p>In my spare time I enjoy cooking and eating, playing guitar, boxing and taking care of my beloved plants. </p>        
+            </div>    
+                    
+        </section>
+        
+        <!-- Work -->
+        <section class="work" id="work">
+            <h2 class="section-title work-title">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3 class="work-subtitle">Linguitic Research</h3>
+                    <p>I hold a Master’s degree in Linguistics from Stockholm University. I am specialized in typology and linguistic diversity and primarly interested in the structural and functional similarities or differences of the languages of the world. My research explores the linguistic strategies used in the languages of the world in answering positive and negative questions.</p>
+                </div> <!-- / service -->
                 
-                <!-- Work --> 
+                <div class="service">
+                    <h3 class="work-subtitle">LaTeX Typsetting</h3>
+                    <p>As a LaTex typesetter I was involved in editorial passes for two volumes for the publishing house Language Science Press. This collaborative project with Stockholm University was an effort to compile novel research in the field of linguistics, particularly concerning Negation and Egophoricity. The volumes required extensive reformatting and in my role I made sure that the content adhered to their criteria and was made ready for publishing.  </p>
+                </div> <!-- / service -->
                 
-                    <section id="work" class="wrapper style2 spotlights">
-						<section>
-							<!--<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>-->
-							<div class="content">
-								<div class="inner">
-                                    <h2>Work experience</h2>
-								    <h3>Project assistant</h3>
-                                    <p>Currently, I am working as a project assistant at the <a href="https://www.ling.su.se" target="_blank">Department of Linguistics</a> at Stockholm Universtiy. More precisely, I am employed as a LaTeX typesetter by Henrik Bergqvist and Ljuba Veselinova for two independent book projects. For these assignments, I work in close collaboration with <a href="http://langsci-press.org" target="_blank">Language Science Press</a>.</p> 
-                                    <p>From 2016–2017, I worked part-time (40%) at the Department of Linguistics at Bern University, where I assited in the <!--<a href="https://www.isw.unibe.ch/dienstleistungen/sprachkurse/index_ger.html" traget=_blank>administration of language courses</a>--> administration of language courses. My duties included compiling timetables and lists of students in Excel, as well as providing counceling and support to students and teachers. <br> Further, I was employed part-time (10%) at the University Library in Bern. My duties included, among others, supervising the loan procedures of books and maintaining order in the library of the Linguistics Department at Bern University.</p>
-                                    
-                                    
-								    <h3>Office assistant</h3>
-                                    <p>From 2015–2016, I worked at the office of oeku Kirche und Umwelt – an organisation that advocates environmental issues in church parishes. My responsibilities included translating texts from German to French/French to German, editing articles for publications as well as doing smaller works around the office in Bern.</p>
-                                    
-                                    <h3>Substitute teacher and tutoring</h3>
-                                    <p>In January 2020, I was employed at the Lycée Français Staint-Louis in Stockholm as a substitute German teacher. I took over seventeen lessons with classes ranging from middle to secondary school. </p>
-                                    <p>At several occasions in the year of 2015, I filled in as a German/French subtitute teacher at my former school in Courtelary (Switzerland). In previous years, I was also tutoring pupils with difficulties in French and Math.   </p>
-                                    
-                                    <h3>Childcare</h3>
-                                    <p>At several occasions during the years 2014–2017, I helped out in the daycare facility for children at Lilith – Zentrum für Frauen und Kinder in Oberbuchsiten (Switzerland).</p> 
-                                    
-                                    <h3>Service industry</h3>
-                                    <p>
-                                    Since February of 2020, I work part-time at the cafe <i>Sjöstuga</i> as a staff member. My tasks range from serving the customer to handling the dirty dishes.    
-                                    </p>
-                                    <p>
-                                    During the sommer month of 2018, I was employed as a staff member at the catering company <i>Au Citron Plié</i> and worked at the sales booth on festival grounds. I was in charge of the cash box. My tasks also inlcuded taking the orders and serving the customers.
-                                    <br>    
-                                    At several occasions during the years 2014–2018, I was employed as a staff member at the events organized by <i>Forum für Unversität und Gesellschaft</i> (FUG) at University of Bern. My main duties inlcuded setting up and supervizing the refreshment breaks between the talks. </p>
-                                    
-                                    
-                                    <h3>Volunteer Work</h3>
-                                    <p>During my studies, I have been an active member in different student groups. <br> At Stockholm University, I held the position of secretary and cashier within the student council <i>ärLing</i> at the Department of Linguistics. In 2019, I was futher part in the organization of a LaTeX workshop for students writing a thesis and created a LaTeX template for the Deparment of Linguistics together with a fellow student.<br> At Bern University, I occupied the position of chair person (in 2016) among others within <i>Fachschaft Linguistik Bern</i> – the student council of Linguistics.</p>
-                
-								</div>
-							</div>
-                            </section>
-                        </section>
-                
-                <!-- Education -->
-					<section id="education" class="wrapper style1 spotlights">
-                        <section>
-                            <div class="content">
-                                <div class="inner">
-                                    <h2>Education</h2>
-                                        <h3>Master's degree, Stockholm University</h3>
-                                        <p>During the two-years Master's program, I completed two independent theses. In 2018, I conducted a large-scale typological study on answers to polarity questions (access <a href="http://www.diva-portal.org/smash/get/diva2:1219275/FULLTEXT02.pdf" target="_blank">Magister thesis here</a>). In 2019, I investigated a special type of answer strategy dubbed <i>polarity-reversing affirmative particles</i> (access <a href="http://www.diva-portal.org/smash/get/diva2:1328022/FULLTEXT01.pdf" target="_blank">Master thesis here</a>). </p>
-                                    
-                                        <h3>Bachelor's degree, University of Bern &amp; University of Zurich</h3>
-                                        <p> From 2012 to 2017, I studied parallely General Linguistics at Bern University and Sinology (Chinese Studies) at Zurich University. In 2017, I completed the Bachelor's program and graduated with a major in General Linguistics and with a minor in Sinology. </p>
-                                    
-                                        <h3>Matura, Seeland Gymnasium Biel-Bienne</h3>
-                                        <p>After completing primary and middle school in Courtelary, I attended the bilingual French-German secondary school (<i>Gymnasium Seeland</i>) in Biel-Bienne, Switzerland. In 2012, I graduated my secondary education with Spanish as major and visual arts as minor subject.</p>
-                                </div>
-                            </div>
-                        </section>
-						<!--<section>
-							<a href="#" class="image"><img src="images/pic01-1.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									 <h2>Master's degree</h2>
-                                    <p>Typology and Linguistic Diversity, Stockholm University</p>
-                                    <p>During the two-years Master's program, I completed two independent theses. In 2018, I conducted a large-scale typological study on answers to polarity questions (access <a href="http://www.diva-portal.org/smash/get/diva2:1219275/FULLTEXT02.pdf" target="_blank">Magister thesis here</a>). In 2019, I investigated a special type of answer strategy dubbed <i>polarity-reversing affirmative particles</i> (access <a href="http://www.diva-portal.org/smash/get/diva2:1328022/FULLTEXT01.pdf" target="_blank">Master thesis here</a>). </p>
-                                    <!--<ul class="actions">
-										<li><a href="diva.html" class="button">Learn more</a></li>
-								
-								</div>
-							</div>
-						</section>
-						<section>
-							<div class="content">
-								<div class="inner">
-									<h2>Bachelor's degree</h2>
-									<p>General Linguistics (Major), University of Bern <br> Chinese Studies (Minor), University of Zurich</p>
-                                    <p> From 2012–2017, I studied parallely General Linguistics at Bern University and Sinology (Chinese Studies) at Zurich University. In 2017, I completed the Bachelor's program and graduated with a major in General Linguistics and with a minor in Sinology.  </p>
-									<!--<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									
-								</div>
-							</div>
-                            <a href="#" class="image"><img src="images/pic02.png" alt="" data-position="top center" /></a>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/ecole.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Matura (matriculation examination) </h2>
-									<p>Bilingual education French-German, Seeland Gymnasium Biel-Bienne</p>
-                                    <p>After completing primary and secondary school in Courtelary, I attended the high school <i>Gymnasium Seeland</i> in Biel-Bienne (Switzerland). In 2012, I graduated high school with Spanish as major subject and visual arts as minor subject.</p>
-									<!--<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									
-								</div>
-							</div>
-						</section></ul>-->
-					</section>
-                                
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Languages</h2>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-globe-europe"></span>
-									<h3>German</h3>
-									<p>native language</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-globe-europe"></span>
-									<h3>French</h3>
-									<p>native language</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-globe-europe"></span>
-									<h3>English</h3>
-									<p>business fluent</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-globe-europe"></span>
-									<h3>Swedish</h3>
-									<p>extended</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-globe-europe"></span>
-									<h3>Spanish</h3>
-									<p>extended</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-globe-asia"></span>
-									<h3>Mandarin Chinese</h3>
-									<p>basic</p>
-								</section>
-							</div>
-							<!--<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
-							</ul>-->
-                            <p>Further languages: Farsi, Georgian, Mapudungun, Modern Greek, Latin</p>
-						</div>
-					</section>
-                
-                <!-- Two-Skills -->
-                
-                <section id="two-skills" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Skills</h2>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-file-alt"></span>
-									<h3>LaTeX</h3>
-									<p>expert</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-file word"></span>
-									<h3>Microsoft Office</h3>
-									<p>advanced skills</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-file-video"></span>
-									<h3>ELAN</h3>
-									<p>advanced skills</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-file-audio"></span>
-									<h3>Praat</h3>
-									<p>advanced skills</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-file-code"></span>
-									<h3>HTML5</h3>
-									<p>basic skills</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-file-code"></span>
-									<h3>CSS</h3>
-									<p>basic skills</p>
-								</section>
-							</div>
-                            </section>
-				<!-- Three -->
-					<section id="three" class="wrapper style4 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Feel free to contact me by email.</p>
-							<div class="split style1">
-								<section>
-									<ul class="contact">
-										<!--<li>          <h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-										</li>-->
-										<li>
-											<h3>Email</h3>
-											<a href="mailto:elemoser@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
-                                        
-										<!--<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>-->
-										
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
+                <div class="service">
+                    <h3 class="work-subtitle">Front-End Development</h3>
+                    <p>I really enjoy the process of designing websites and completed multiple projects since my first webpage. I am fascinated by human-computer interaction and hope to engage more in front-end development and UI design in the future.</p>
+                </div> 
+            </div> <!-- / services -->
+            
+            <a href="https://drive.google.com/file/d/1J3IlUdfLLoKiv5aCyVOB4-xhKaNYIhqW/view?usp=sharing" class="btn">My resume</a>
+        </section>
+    
+        
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <h2 class="section-title contact-title">Get in touch</h2>
+            <div class="contact-links">
+                <a href="mailto:elemoser@gmail.com" class="mail-link">
+                    Email <i class="fas fa-at"></i>
+                </a>
+<!--
+                <ul class="social-list">
+                    <li class="social-list__item"><a class="social-list__link"></a></li>
+                </ul>
+-->
+            </div>    
+        
+        </section>
+        
+        <script src="JS/index.js"></script>
+    </body>
 
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
