@@ -1996,6 +1996,15 @@ input, select, textarea {
 				font-size: 1em;
 			}
 
+		.item p {
+			background: #fff;
+			margin: 0;
+			padding: 0 1em 1em;
+			font-size: 0.7em;
+			line-height: 1.5;
+			text-align: justify;
+		}
+
 /* Icons */
 
 	.icon {
