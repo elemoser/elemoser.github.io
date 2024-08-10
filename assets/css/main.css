@@ -2233,11 +2233,12 @@ input, select, textarea {
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
+					color: #e27689;
 				}
 
 				#main > section.dark strong {
-					color: #fff;
+					color: #e27689;
+					font-weight: bold;
 					border-color: inherit;
 				}
 
@@ -2259,7 +2260,7 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #E27689;
 				/* background-color: #81918E; */
-				/* background-image: url("../../images/banner.jpg"); */
+				background-image: url("../../images/banner_em.jpg");
 			}
 
 			#main > section.two {
@@ -2315,7 +2316,7 @@ input, select, textarea {
 			}
 
 			#main section.cover {
-				padding: 2em 0;
+				padding: 5em 0;
 			}
 
 	}
