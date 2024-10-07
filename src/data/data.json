@@ -1,0 +1,26 @@
+[
+  {
+    "id": "0",
+    "title": "App1",
+    "description": "This individual examination project for the course Web Applications for Mobile Devices focused on responsive design. The application provides users with real-time information about train delays within Sweden, utilizing data accessed through the Swedish Transportation Administration's (Trafikverket) API. Developed as a single-page application, the project was built using JavaScript and NodeJS with Express.",
+    "repo": "",
+    "link": "https://www.student.bth.se/~elmo22/dbwebb-kurser/webapp/me/kmom10/proj/#",
+    "image": "https://elemoser.github.io/Images/train_mobile_app.PNG"
+  },
+  {
+    "id": "1",
+    "title": "App2",
+    "description": "This individual examination project for the course Web Applications for Mobile Devices focused on responsive design. The application provides users with real-time information about train delays within Sweden, utilizing data accessed through the Swedish Transportation Administration's (Trafikverket) API. Developed as a single-page application, the project was built using JavaScript and NodeJS with Express.",
+    "repo": "",
+    "link": "https://www.student.bth.se/~elmo22/dbwebb-kurser/webapp/me/kmom10/proj/#",
+    "image": "https://elemoser.github.io/Images/train_mobile_app.PNG"
+  },
+  {
+    "id": "2",
+    "title": "App3",
+    "description": "This individual examination project for the course Web Applications for Mobile Devices focused on responsive design. The application provides users with real-time information about train delays within Sweden, utilizing data accessed through the Swedish Transportation Administration's (Trafikverket) API. Developed as a single-page application, the project was built using JavaScript and NodeJS with Express.",
+    "repo": "",
+    "link": "https://www.student.bth.se/~elmo22/dbwebb-kurser/webapp/me/kmom10/proj/#",
+    "image": "https://elemoser.github.io/Images/train_mobile_app.PNG"
+  }
+]

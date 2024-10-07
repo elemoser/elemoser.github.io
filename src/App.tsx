@@ -11,6 +11,7 @@ import {
 import Intro from "./components/Intro";
 import Project from "./components/Project";
 import Aside from "./components/Aside";
+import Data from "./data/data.json";
 
 function App() {
   const firstName = "Elena";
@@ -93,28 +94,11 @@ function App() {
               either independently or in collaboration with a teammate.
             </Text>
             <HStack>
-              <Project
-                name="Single Page Application for Mobile Devices"
-                link="#"
-              >
-                This individual examination project for the course Web
-                Applications for Mobile Devices focused on responsive design.
-                The application provides users with real-time information about
-                train delays within Sweden, utilizing data accessed through the
-                Swedish Transportation Administration's (Trafikverket) API.
-                Developed as a single-page application, the project was built
-                using JavaScript and NodeJS with Express.
-              </Project>
-              <Project name="Client Website" link="#">
-                This individual project was part of the Technical Web Design and
-                Usability course, where I developed a web application for a
-                fictional client—in this case, my younger brother, an aspiring
-                musician. The course emphasized accessible and user-friendly
-                design, allowing me to apply key principles such as hierarchy,
-                composition, and depth. I created two versions of the website,
-                offering both light and dark modes to enhance usability and
-                cater to different user preferences.
-              </Project>
+              {Data.map((item) => (
+                <Project key={item.id} name={item.title} link={item.link}>
+                  {item.description}
+                </Project>
+              ))}
             </HStack>
           </Box>
         </GridItem>
