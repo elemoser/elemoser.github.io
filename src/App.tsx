@@ -4,7 +4,7 @@ import {
   Show,
   Text,
   Stack,
-  HStack,
+  SimpleGrid,
   Box,
   Heading,
 } from "@chakra-ui/react";
@@ -93,13 +93,23 @@ function App() {
               applications. Below is a selection of projects I have developed,
               either independently or in collaboration with a teammate.
             </Text>
-            <HStack>
+            <SimpleGrid
+              columns={{ sm: 1, md: 1, lg: 2, xl: 3 }}
+              padding="10px"
+              spacing={3}
+            >
               {Data.map((item) => (
-                <Project key={item.id} name={item.title} link={item.link}>
+                <Project
+                  key={item.id}
+                  name={item.title}
+                  link={item.link}
+                  repo={item.repo}
+                  image={item.image}
+                >
                   {item.description}
                 </Project>
               ))}
-            </HStack>
+            </SimpleGrid>
           </Box>
         </GridItem>
       </Grid>

@@ -1,26 +1,56 @@
 [
   {
     "id": "0",
-    "title": "App1",
-    "description": "This individual examination project for the course Web Applications for Mobile Devices focused on responsive design. The application provides users with real-time information about train delays within Sweden, utilizing data accessed through the Swedish Transportation Administration's (Trafikverket) API. Developed as a single-page application, the project was built using JavaScript and NodeJS with Express.",
-    "repo": "",
-    "link": "https://www.student.bth.se/~elmo22/dbwebb-kurser/webapp/me/kmom10/proj/#",
-    "image": "https://elemoser.github.io/Images/train_mobile_app.PNG"
+    "title": "A Study of Open Source Evaluation Tools",
+    "description": "For my final thesis project at the Blekinge Institute of Technology (BTH), my teammate and I collaborated with the Web/Mobile team at the IT Services Office (ID) at Bern University. We explored a selection of open-source web accessibility evaluation tools and investigated how easily they could be integrated into a CI/CD environment. The study focused on assessing the effectiveness of these tools in detecting WCAG violations within a CI/CD pipeline. The tools selected for our research included Asqatasun, Deque Systems’ Axe-Core CLI, Squiz Labs’ HTML_CodeSniffer, and IBM’s Equal Access Accessibility Checker.\n\nTo conduct a thorough evaluation, we developed a test website specifically designed with a set number of Web Content Accessibility Guidelines (WCAG) violations. The findings of our study provided valuable insights that enabled the Web/Mobile team to rethink and enhance their CI/CD pipeline for better accessibility compliance.",
+    "Year": 2024,
+    "repo": "https://github.com/idasm-unibe-ch/unibe-web-accessibility",
+    "link": "https://www.diva-portal.org/smash/record.jsf?dswid=4314&pid=diva2%3A1887999&c=3&searchType=SIMPLE&language=en&query=Elena+Vera+Moser&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all",
+    "image": "thesis_2024.png"
   },
   {
     "id": "1",
-    "title": "App2",
-    "description": "This individual examination project for the course Web Applications for Mobile Devices focused on responsive design. The application provides users with real-time information about train delays within Sweden, utilizing data accessed through the Swedish Transportation Administration's (Trafikverket) API. Developed as a single-page application, the project was built using JavaScript and NodeJS with Express.",
+    "title": "Data Analysis with Python and Streamlit",
+    "description": "This project was part of a Mathematical Modelling course. I used Python, along with libraries such as pandas and scipy, to analyze sunshine duration data for Stockholm, Karlskrona, and Gothenburg. Additionally, I utilized streamlit.io to create interactive visualizations, allowing for clear and intuitive presentation of the data and results.",
+    "Year": 2024,
     "repo": "",
-    "link": "https://www.student.bth.se/~elmo22/dbwebb-kurser/webapp/me/kmom10/proj/#",
-    "image": "https://elemoser.github.io/Images/train_mobile_app.PNG"
+    "link": "",
+    "image": "streamlit.png"
   },
   {
     "id": "2",
-    "title": "App3",
-    "description": "This individual examination project for the course Web Applications for Mobile Devices focused on responsive design. The application provides users with real-time information about train delays within Sweden, utilizing data accessed through the Swedish Transportation Administration's (Trafikverket) API. Developed as a single-page application, the project was built using JavaScript and NodeJS with Express.",
+    "title": "Electric Scooter App",
+    "description": "As part of the Software Development in Virtual Teams course, my three teammates and I collaborated to create a responsive web application tailored for electric scooter users. Our project involved addressing a set of requirements provided by a fictional client, with a particular emphasis on performance. To showcase our application’s capabilities, we conducted a presentation at the end of the project that included a simulation demonstrating its functionality with a few thousand users.\n\nIn this project, I assumed the role of DevOps Engineer, overseeing the management of our GitHub repository. Additionally, I contributed to the frontend development of the application.",
+    "Year": 2023,
+    "repo": "https://github.com/elemoser/elsparkcyklar-app",
+    "link": "",
+    "image": "electric_scooter_model.png"
+  },
+  {
+    "id": "3",
+    "title": "Single Page Application for Mobile Devices",
+    "description": "This project was completed within the framework of the course Web Applications for Mobile Devices, and focused on responsive design. The application provides users with real-time information about train delays within Sweden, utilizing data accessed through the Swedish Transportation Administration (Trafikverket) API. Developed as a single-page application, the project was built using JavaScript and NodeJS with Express.",
+    "Year": 2023,
     "repo": "",
     "link": "https://www.student.bth.se/~elmo22/dbwebb-kurser/webapp/me/kmom10/proj/#",
-    "image": "https://elemoser.github.io/Images/train_mobile_app.PNG"
+    "image": "train_mobile_app.PNG"
+  },
+  {
+    "id": "4",
+    "title": "Web Application using Vue and Sockets",
+    "description": "This team project was part of the JavaScript-based Web Frameworks course, which focused on gaining proficiency with web frameworks. The application provides users with up-to-date information on train traffic across Sweden, pulling data from the Swedish Transportation Administration (Trafikverket) API. This web application was developed with JavaScript, Vue and NodeJS Express. For real-time updates of train delays we used socket.io, a tool which provides a bi-directional communication channel between a client and a server.",
+    "Year": 2023,
+    "repo": "https://github.com/elemoser/jsramverk-train-controller?tab=readme-ov-file",
+    "link": "",
+    "image": "train_app.PNG"
+  },
+  {
+    "id": "5",
+    "title": "Client website",
+    "description": "This project was part of the Technical Web Design and Usability course, where I developed a web application for a fictional client—in this case, my younger brother, an aspiring musician. The course emphasized accessible and user-friendly design, allowing me to apply key principles such as hierarchy, composition, and depth. I created two versions of the website, offering both light and dark modes to enhance usability and cater to different user preferences.",
+    "Year": 2023,
+    "repo": "",
+    "link": "https://www.student.bth.se/~elmo22/dbwebb-kurser/design/me/kmom10/",
+    "image": "client_website.png"
   }
 ]

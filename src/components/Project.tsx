@@ -1,5 +1,6 @@
 import {
   Button,
+  Box,
   Card,
   CardBody,
   Heading,
@@ -13,34 +14,47 @@ import { ReactNode } from "react";
 interface Props {
   children: ReactNode;
   link: string;
+  repo: string;
   name: string;
+  image: string;
 }
 
-const Project = ({ children, link, name }: Props) => {
+const Project = ({ children, link, repo, name, image }: Props) => {
   return (
-    <>
-      <Stack>
-        <Card>
-          <CardBody>
-            <Link href={link}>
-              <Image
-                src="gibbresh.png"
-                fallbackSrc="https://via.placeholder.com/200"
-              />
-            </Link>
-            <Stack mt="6" spacing="3">
-              <Heading size="md">{name}</Heading>
-              <Text>{children}</Text>
-              <Link href={link}>
+    <Box borderRadius={10} overflow="hidden">
+      <Card>
+        <CardBody>
+          {image.length === 0 ? (
+            <Image
+              src="gibbresh.png"
+              fallbackSrc="https://via.placeholder.com/200"
+            />
+          ) : (
+            <Image src={"https://elemoser.github.io/Images/" + image} />
+          )}
+          <Stack mt="6" spacing="3">
+            <Heading size="md">{name}</Heading>
+            <Text>{children}</Text>
+            {repo.length === 0 ? (
+              <Text>(Private Repository)</Text>
+            ) : (
+              <Link href={repo} target="_blank">
                 <Button colorScheme="teal" variant="solid">
-                  View
+                  View repo
                 </Button>
               </Link>
-            </Stack>
-          </CardBody>
-        </Card>
-      </Stack>
-    </>
+            )}
+            {link.length === 0 ? null : (
+              <Link href={link} target="_blank">
+                <Button colorScheme="teal" variant="solid">
+                  View site
+                </Button>
+              </Link>
+            )}
+          </Stack>
+        </CardBody>
+      </Card>
+    </Box>
   );
 };
 
