@@ -54,7 +54,7 @@ function App() {
           {/* <Skeleton height="200px" /> */}
           <Box id="about" padding="50px 25px">
             <Stack spacing={3}>
-              <Text align="center">
+              <Text fontSize="xl" align="center">
                 Originally from Switzerland, I have grown up in the canton of
                 Bern in a bilingual French-German setting. Early on I have been
                 confronted with different linguistic systems and developed a
@@ -66,7 +66,7 @@ function App() {
                 since moving to Stockholm in 2017. Moreover, I speak Spanish and
                 some Mandarin Chinese. Currently, I am learning Farsi.
               </Text>
-              <Text align="center">
+              <Text fontSize="xl" align="center">
                 Alongside my passion for human languages, I have developed a
                 keen interest in computer languages and enjoy creating beautiful
                 and functional applications. My journey into coding began while
@@ -87,7 +87,7 @@ function App() {
           {/* <SkeletonText mt="4" noOfLines={4} spacing="4" skeletonHeight="2" /> */}
           <Box id="projects" padding="10px">
             <Heading>Portfolio</Heading>
-            <Text>
+            <Text fontSize="xl">
               As a full-stack developer specializing in web technologies, I have
               contributed to both the backend and frontend of numerous web
               applications. Below is a selection of projects I have developed,
