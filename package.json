@@ -2,7 +2,6 @@
   "name": "newportfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://elemoser.github.io/newportfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
