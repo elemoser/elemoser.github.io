@@ -24,8 +24,8 @@ function App() {
   ];
   const contact = [
     ["Email", "mailto:elemoser@gmail.com"],
-    ["LinkedIn", "linkedin.com/in/elena-vera-moser-5081b2189"],
-    ["GitHub", "https://github.com/elemoser"],
+    ["Linkedin", "linkedin.com/in/elena-vera-moser-5081b2189"],
+    ["Github", "https://github.com/elemoser"],
   ];
 
   return (
