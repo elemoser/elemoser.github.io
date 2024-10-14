@@ -22,6 +22,11 @@ function App() {
     ["About Me", "#about"],
     ["Portfolio", "#projects"],
   ];
+  const contact = [
+    ["Email", "mailto:elemoser@gmail.com"],
+    ["LinkedIn", "linkedin.com/in/elena-vera-moser-5081b2189"],
+    ["GitHub", "https://github.com/elemoser"],
+  ];
 
   return (
     <>
@@ -47,6 +52,7 @@ function App() {
               fullname={firstName + " " + middleName + " " + lastName}
               jobtitle="Software Engineer | Linguist"
               nav={nav}
+              contact={contact}
             />
           </GridItem>
         </Show>

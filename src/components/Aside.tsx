@@ -2,6 +2,7 @@ import {
   Box,
   Button,
   Heading,
+  Link,
   LinkBox,
   LinkOverlay,
   Stack,
@@ -12,9 +13,10 @@ interface Props {
   fullname: string;
   jobtitle: string;
   nav: string[][];
+  contact: string[][];
 }
 
-const Aside = ({ fullname, jobtitle, nav }: Props) => {
+const Aside = ({ fullname, jobtitle, nav, contact }: Props) => {
   return (
     <>
       <Box padding="50px 10px" textAlign="right">
@@ -28,6 +30,13 @@ const Aside = ({ fullname, jobtitle, nav }: Props) => {
               <LinkOverlay href={navItem[1]}>{navItem[0]}</LinkOverlay>
             </Button>
           </LinkBox>
+        ))}
+      </Stack>
+      <Stack direction="row">
+        {contact.map((contactItem) => (
+          <Link href={contactItem[1]} target="_blank">
+            {contactItem[0]}
+          </Link>
         ))}
       </Stack>
     </>
