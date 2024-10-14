@@ -36,7 +36,13 @@ function App() {
         }}
       >
         <Show above="lg">
-          <GridItem area="aside" paddingX={5}>
+          <GridItem
+            area="aside"
+            paddingX={5}
+            maxHeight="99vh"
+            position="sticky"
+            top={1}
+          >
             <Aside
               fullname={firstName + " " + middleName + " " + lastName}
               jobtitle="Software Engineer | Linguist"
