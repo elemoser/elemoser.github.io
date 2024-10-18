@@ -73,10 +73,10 @@ function App() {
                 passion for language learning. In 2017, I completed a Bachelor
                 in General Linguistics at the University of Bern, and in 2019, I
                 graduated from Stockholm University with a Master in Typology
-                and Linguistic Diversity. Besides being fluent in in German,
+                and Linguistic Diversity. Besides being fluent in German,
                 French, and English, I have also acquired proficiency in Swedish
                 since moving to Stockholm in 2017. Moreover, I speak Spanish and
-                some Mandarin Chinese. Currently, I am learning Farsi.
+                some Mandarin Chinese. Cusrrently, I am learning Farsi.
               </Text>
               <Text fontSize="xl" align="center">
                 Alongside my passion for human languages, I have developed a
