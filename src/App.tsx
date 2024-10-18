@@ -18,9 +18,9 @@ function App() {
   const middleName = "Vera";
   const lastName = "Moser";
   const nav = [
-    ["Home", "#"],
-    ["About Me", "#about"],
-    ["Portfolio", "#projects"],
+    ["Home", "intro"],
+    ["About Me", "about"],
+    ["Portfolio", "projects"],
   ];
   const contact = [
     ["Email", "mailto:elemoser@gmail.com"],
@@ -56,7 +56,7 @@ function App() {
             />
           </GridItem>
         </Show>
-        <GridItem area="intro">
+        <GridItem id="intro" area="intro">
           <Intro
             fullname={firstName + " " + lastName}
             title="Software Engineer and Linguist"

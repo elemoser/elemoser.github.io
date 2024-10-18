@@ -4,8 +4,6 @@ import {
   Flex,
   Heading,
   Link,
-  LinkBox,
-  LinkOverlay,
   Stack,
   Text,
 } from "@chakra-ui/react";
@@ -20,6 +18,16 @@ interface Props {
 }
 
 const Aside = ({ fullname, jobtitle, nav, contact }: Props) => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <Stack spacing={10}>
       <Box padding="50px 10px" textAlign="right">
@@ -28,11 +36,15 @@ const Aside = ({ fullname, jobtitle, nav, contact }: Props) => {
       </Box>
       <Stack spacing={0} padding="5px 10px">
         {nav.map((navItem) => (
-          <LinkBox key={navItem[0]}>
-            <Button borderRadius={0} width="100%" padding="50px 5px">
-              <LinkOverlay href={navItem[1]}>{navItem[0]}</LinkOverlay>
-            </Button>
-          </LinkBox>
+          <Button
+            key={navItem[1]}
+            borderRadius={0}
+            width="100%"
+            padding="50px 5px"
+            onClick={() => scrollToSection(navItem[1])}
+          >
+            {navItem[0]}
+          </Button>
         ))}
       </Stack>
       <Flex justifyContent="space-evenly" padding={1}>
