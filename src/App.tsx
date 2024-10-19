@@ -7,11 +7,13 @@ import {
   SimpleGrid,
   Box,
   Heading,
+  Card,
 } from "@chakra-ui/react";
 import Intro from "./components/Intro";
 import Project from "./components/Project";
 import Aside from "./components/Aside";
 import Data from "./data/data.json";
+import Footer from "./components/Footer";
 
 function App() {
   const firstName = "Elena";
@@ -97,7 +99,7 @@ function App() {
             </Stack>
           </Box>
           {/* <SkeletonText mt="4" noOfLines={4} spacing="4" skeletonHeight="2" /> */}
-          <Box id="projects" padding="10px">
+          <Box id="projects" padding="50px 25px">
             <Heading>Portfolio</Heading>
             <Text fontSize="xl">
               As a full-stack developer specializing in web technologies, I have
@@ -123,6 +125,22 @@ function App() {
               ))}
             </SimpleGrid>
           </Box>
+          <Box padding="25px">
+            <Card padding="15px">
+              <Stack spacing={3}>
+                <Heading size="md" textAlign="center">
+                  About this page
+                </Heading>
+                <Text>
+                  This website was built by {firstName + " " + lastName} using
+                  JavaScript, TypeScript, and React, with Chakra UI for the user
+                  interface. It is hosted on GitHub Pages. For more details,
+                  please refer to the README file in the GitHub repository.
+                </Text>
+              </Stack>
+            </Card>
+          </Box>
+          <Footer name={firstName + " " + lastName} />
         </GridItem>
       </Grid>
     </>
