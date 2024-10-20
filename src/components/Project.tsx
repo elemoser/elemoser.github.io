@@ -25,7 +25,7 @@ const Project = ({ children, link, repo, name, image }: Props) => {
     <Box borderRadius={10} overflow="hidden">
       <Card>
         <CardBody>
-          <Image borderRadius="lg" src={"./public/" + image} />
+          <Image borderRadius="lg" src={"./" + image} />
           <Stack mt="6" spacing="3">
             <Heading size="md">{name}</Heading>
             <Text fontSize="md">{children}</Text>
