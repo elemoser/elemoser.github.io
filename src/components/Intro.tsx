@@ -1,4 +1,4 @@
-import { Box, Heading } from "@chakra-ui/react";
+import { Box, Heading, Stack } from "@chakra-ui/react";
 import banner from "../assets/banner_em.jpg";
 import ColorModeToggle from "./ColorModeToggle";
 
@@ -22,12 +22,14 @@ const Intro = ({ fullname, title }: Props) => {
         height="400px"
       >
         <ColorModeToggle />
-        <Heading as="h1" size="2xl">
-          Hi, I'm {fullname}!
-        </Heading>
-        <Heading as="h3" size="lg">
-          {title}
-        </Heading>
+        <Stack padding={4} spacing={2}>
+          <Heading as="h1" size="2xl" color="#CE507C">
+            Hi, I'm {fullname}!
+          </Heading>
+          <Heading as="h3" size="lg">
+            {title}
+          </Heading>
+        </Stack>
       </Box>
     </>
   );
