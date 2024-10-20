@@ -100,16 +100,19 @@ function App() {
           </Box>
           {/* <SkeletonText mt="4" noOfLines={4} spacing="4" skeletonHeight="2" /> */}
           <Box id="projects" padding="50px 25px">
-            <Heading>Portfolio</Heading>
-            <Text fontSize="xl">
-              As a full-stack developer specializing in web technologies, I have
-              contributed to both the backend and frontend of numerous web
-              applications. Below is a selection of projects I have developed,
-              either independently or in collaboration with a teammate.
-            </Text>
+            <Stack spacing={5}>
+              <Heading alignSelf="center">Portfolio</Heading>
+              <Text fontSize="xl">
+                As a full-stack developer specializing in web technologies, I
+                have contributed to both the backend and frontend of numerous
+                web applications. Below is a selection of projects I have
+                developed, either independently or in collaboration with a
+                teammate.
+              </Text>
+            </Stack>
             <SimpleGrid
               columns={{ sm: 1, md: 1, lg: 2, xl: 3 }}
-              padding="10px"
+              padding="50px 5px"
               spacing={3}
             >
               {Data.map((item) => (
