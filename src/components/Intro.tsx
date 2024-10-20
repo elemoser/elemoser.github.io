@@ -1,5 +1,6 @@
 import { Box, Heading } from "@chakra-ui/react";
 import banner from "../assets/banner_em.jpg";
+import ColorModeToggle from "./ColorModeToggle";
 
 interface Props {
   fullname: string;
@@ -20,6 +21,7 @@ const Intro = ({ fullname, title }: Props) => {
         p={4}
         height="400px"
       >
+        <ColorModeToggle />
         <Heading as="h1" size="2xl">
           Hi, I'm {fullname}!
         </Heading>
