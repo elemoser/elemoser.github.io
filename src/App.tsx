@@ -12,8 +12,8 @@ import {
 import Intro from "./components/Intro";
 import Project from "./components/Project";
 import Aside from "./components/Aside";
-import Data from "./data/data.json";
 import Footer from "./components/Footer";
+import Data from "./data/data.json";
 
 function App() {
   const firstName = "Elena";
